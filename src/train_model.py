@@ -7,9 +7,7 @@ from sklearn.metrics import classification_report, roc_auc_score
 
 
 def load_processed_data(path):
-    """
-    Load processed telecom churn dataset.
-    """
+
     df = pd.read_csv(path)
     return df
 
